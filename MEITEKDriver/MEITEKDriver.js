@@ -104,7 +104,7 @@ module.exports = (function() {
 	var server = net.createServer(newSocket);
  
 	// Listen on port 8060
-	server.listen(8060);
+	server.listen(this._config.port);
 
   };
 
