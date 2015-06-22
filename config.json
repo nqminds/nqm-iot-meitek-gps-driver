@@ -1,0 +1,14 @@
+/*
+ * This is a sample configuration object for MEITEK-GPSDriver - actual config is passed to the constructor.
+ */
+
+{
+  "type": "MEITEK-GPS",
+  "port": 8060,
+  "sensors": [
+    {
+      "deviceId": "013777002522124",
+      "feedId": "GPS001"
+    }
+  ]
+}
